@@ -47,15 +47,29 @@ body{
 .card-content h4 {
     font-size: 19px;
     text-align: center;
+    padding-top:  2px;
     margin: 0;
-    padding-top:  3px;
-    
+}
+.card-content h5{
+    font-size: 15px;
+    text-align: center;
+    padding: 0 8px 2px 8px;
+    font-style: italic;
 }
 .card-content p{
-    font-size: 16px;
-    text-align: justify;
-    padding: 0 20px 5px 20px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 10px; 
+    transition: color 0.4s, text-decoration 0.4s; 
+
 }
+
+.card-content p:hover {
+    text-decoration: underline;
+    color: #2184e6;
+}
+  
 .icons{
     text-align: center;
     padding-top: 5px;
